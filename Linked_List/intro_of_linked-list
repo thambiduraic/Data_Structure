@@ -1,1 +1,35 @@
+Linked List:
 
+	A linked list is a collection of “nodes” connected together via links. These nodes consist of the data to be stored and a pointer to the address of the next node within the linked list. In the case of arrays, the size is limited to the definition, but in linked lists, there is no defined size.
+
+Types of linked list:
+	
+	--> Singly Linked Lists
+	--> Doubly Linked Lists
+	--> Circular Linked List
+
+Structure of Singly Linked List:
+
+	Every linked list consists of nodes. Every node has two components:
+
+	head ---> data|next-->data|next-->data|next-->data|null <--- End
+	
+	--> Data
+	--> Next
+
+Data:
+
+	The data component allows a node in the linked list to store an element of data that can be of type string, character, number, or any other type of object. 
+	Ex : The data elements are A, B, and C which are of character type.
+
+Next:
+
+	The next component in every node is a pointer that points from one node to another.
+
+Head:
+
+	The start of the linked list is referred to as the head. head is a pointer that points to the beginning of the linked list, so if we want to traverse the linked list to obtain or access an element of the linked list, we’ll start from head and move along.
+
+Null:
+
+	The last component of a singly linked list is a notion of null. This null idea terminates the linked list. In Python, we call this None. The last node in a singly linked list points to a null object, and that tells you that it’s the end of the linked list.
